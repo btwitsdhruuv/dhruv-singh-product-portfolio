@@ -26,7 +26,7 @@ The portfolio is a lightweight responsive site built with semantic HTML, CSS, an
 
 ## GitHub Pages deployment
 
-The repository includes `.github/workflows/deploy-pages.yml`. Enable GitHub Pages in the repository settings with **GitHub Actions** as the source; each push to `main` (or a manual workflow run) then deploys the portfolio automatically. The workflow publishes only `index.html`, so the unchanged résumé PDF is not copied into the public repository artifact.
+The repository includes `.github/workflows/deploy-pages.yml`. Enable GitHub Pages in the repository settings with **GitHub Actions** as the source; each push to `main` (or a manual workflow run) then deploys the portfolio automatically. The workflow publishes the portfolio and the unchanged `Dhruv Singh CV 2026.pdf` so the **Download resume** button works without the ChatGPT Site.
 
 ## Contact
 
